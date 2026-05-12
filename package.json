@@ -1,0 +1,23 @@
+{
+  "name": "github-api-mini-tool",
+  "version": "1.0.0",
+  "description": "A tiny runnable CLI that calls the GitHub REST API to summarize open issues for a repository.",
+  "type": "module",
+  "bin": {
+    "github-api-mini-tool": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "check": "node ./src/index.js cli/cli --limit 1"
+  },
+  "keywords": [
+    "github-api",
+    "cli",
+    "developer-program"
+  ],
+  "author": "Stell Hub",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
