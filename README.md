@@ -1,15 +1,29 @@
-# GitHub API Mini Tool
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# github-api-mini-tool
 
-A tiny runnable command-line tool that calls the GitHub REST API and prints a short open-issue summary for a repository.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/github-api-mini-tool)
 
-This repository is intentionally small. It is meant to demonstrate a real GitHub API integration that can be developed further.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## Requirements
+## Architecture
 
-- Node.js 18 or newer
-- Optional: `GITHUB_TOKEN` for a higher API rate limit
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/github-api-mini-tool.git
+cd github-api-mini-tool
+```
 
 ## Usage
+
 
 ```bash
 npm start -- cli/cli --limit 3
@@ -27,14 +41,50 @@ Example with a token:
 GITHUB_TOKEN=ghp_your_token_here node ./src/index.js cli/cli --limit 3
 ```
 
-## What It Does
+## Configuration
 
-- Parses a repository in `owner/repo` form.
-- Calls `GET /repos/{owner}/{repo}/issues`.
-- Filters out pull requests from the issue list.
-- Prints issue numbers, titles, authors, and URLs.
-- Prints GitHub API rate-limit information when available.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-## Developer Program Note
+## CI
 
-This is a minimal GitHub API integration in development. It can be extended into a dashboard, automation, or notification tool.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/github-api-mini-tool`](https://github.com/Interested-Deving-1896/github-api-mini-tool) and mirrored through:
+
+```
+Interested-Deving-1896/github-api-mini-tool  ──►  OpenOS-Project-OSP/github-api-mini-tool  ──►  OpenOS-Project-Ecosystem-OOC/github-api-mini-tool
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
